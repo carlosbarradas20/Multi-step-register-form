@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>REGISTRO</title>
+</head>
+<body>
+    <div class="contain">
+        <div class="formContainer">
+            <h1 class="registrer">Registrer</h1>
+            <form id="detailForm">
+                <label for="nombre">Name:</label>
+                <input type="text" required placeholder="enter your name" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" required placeholder="example@gmail.com" id="email" name="email">
+                <h2 class="topics inactive">Topics:</h2>
+                <div class="option1 inactive" value="Software Development">Software Development</div>
+                <div class="option2 inactive" value="User Experience">User Experience</div>
+                <div class="option3 inactive" value="Graphic Design">Graphic Design</div>
+                <button type="submit">Continue</button>
+            </form>
+        </div>
+        <div class="steps">
+            <p class="process">Step 1 of 3</p>
+            <div class="step one stepActive"></div>
+            <div class="step two"></div>
+            <div class="step tree"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
